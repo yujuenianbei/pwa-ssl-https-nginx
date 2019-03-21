@@ -1,0 +1,21 @@
+{
+  "short_name": "测试",
+  "name": "测试PWA",
+  "icons": [
+    {
+      "src": "/img/test.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/test.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#2196F3",
+  "orientation": "landscape",
+  "theme_color": "#2196F3"
+}

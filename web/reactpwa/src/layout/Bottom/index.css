@@ -1,0 +1,30 @@
+.bottom_nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.bottom_nav_ul{
+    width: 100%;
+}
+.bottom_nav_ul_li{
+    width: 20%;
+    float: left;
+    height: 50px;
+    text-align: center;
+}
+.bottom_nav_ul_li>a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 7px 0;
+}
+.bottom_nav_ul_li p{
+    line-height: 5px;
+    font-size: 12px;
+}
+.bottom_icon{
+    font-size: 20px;
+    line-height: 25px;
+    vertical-align: super;
+}
