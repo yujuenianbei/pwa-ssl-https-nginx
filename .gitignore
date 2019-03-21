@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+html/reactpwa/node_modules
+html/reactpwa/.pnp
+html/reactpwa/.pnp.js
+
+# testing
+html/reactpwa/coverage
+
+# production
+html/reactpwa/build
+
+# misc
+html/reactpwa.DS_Store
+html/reactpwa.env.local
+html/reactpwa.env.development.local
+html/reactpwa.env.test.local
+html/reactpwa.env.production.local
+
+html/reactpwanpm-debug.log*
+html/reactpwayarn-debug.log*
+html/reactpwayarn-error.log*
