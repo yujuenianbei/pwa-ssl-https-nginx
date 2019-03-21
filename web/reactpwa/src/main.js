@@ -4,7 +4,7 @@ import News from './layout/News/index'
 import State from './layout/State/index'
 import User from './layout/User/index'
 import Setting from './layout/Setting/index'
-import { HashRouter as Router, Route, Link, Switch, HashHistory } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import createBrowserHistory from "history/createBrowserHistory";
 
 const customHistory = createBrowserHistory();

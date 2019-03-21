@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // commom css
-import './index.css';
+import './index.less';
 // fonts
 import './fonts/font.css'
 // enter
@@ -9,7 +9,7 @@ import App from './App';
 
 import * as serviceWorker from './serviceWorker';
 
-import { HashRouter, Route, Link, Switch, HashHistory } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import {Provider} from 'react-redux';
 import configureStore from './store'
