@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.less';
 import Bottom from './layout/Bottom/index';
 import Main from './main';
 
