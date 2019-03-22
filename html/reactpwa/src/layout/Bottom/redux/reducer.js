@@ -8,7 +8,6 @@ import {
   export default (state = initValue, action) => {
     const data = action.data
     switch (action.type) {
-      // session
       case Page_Index: {
         return Object.assign({}, state, { pageIndex: data })
       }

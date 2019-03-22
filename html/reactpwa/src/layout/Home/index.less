@@ -1,0 +1,107 @@
+.main {
+    width: 100%;
+    .main_header {
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid #1890ff;
+        box-shadow: 2px 1px 285px 1px #1890ff;
+        background-color: #fff;
+        z-index: 90;
+    }
+    .main_banner {
+        position: relative;
+        padding-top: 40px;
+        .slick-slide {
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .main_navigation {
+        .slick-slide {
+            overflow: hidden;
+        }
+        .main_navigation_content {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                li {
+                    width: 20%;
+                    height: 60px;
+                    text-align: center;
+                    line-height: 60px;
+                    &>div {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        height: 100%;
+                        padding: 4px 0px;
+                        .navigation_icon{
+                            line-height: 36px;
+                            font-size: 26px;
+                        }
+                        .navigation_name{
+                            line-height: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main_videoList{
+        margin: 0 5px;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                width: 50%;
+                padding: 5px;
+                .main_video{
+                    position: relative;
+                    .main_videoImg{
+                        img{
+                            width: 100%;
+                            border-radius: 5px;
+                        }
+                    }
+                    .main_videoUser{
+                        position: absolute;
+                        width: 100%;
+                        margin-top: -20px;
+                        padding: 0 7px;
+                        // display: flex;
+                        // flex-direction: row;
+                        .main_video_usernum{
+                            float: left;
+                            width: 50%;
+                            overflow: hidden;
+                            .main_num{
+                                float: left;
+                                margin-left: 3px;
+                                font-size: 11px;
+                                color: #fff;
+                            }
+                            .main_videoIcon{
+                                float: left;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main_end{
+        height: 50px;
+        width: 100%;
+    }
+}
+
+.ant-drawer {
+    z-index: 99;
+}

@@ -24,50 +24,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-discount:before {
-  content: "\eaeb";
-  color: #d24c59;
-}
-.icon-note_book:before {
-  content: "\eaec";
-  color: #d81e06;
-}
-.icon-computer:before {
-  content: "\eaed";
-  color: #54c3f1;
-}
-.icon-discount_coupon:before {
-  content: "\eaee";
-  color: #f2784d;
-}
-.icon-flow_analysis:before {
-  content: "\eaef";
-  color: #2f9691;
-}
-.icon-goods_analysis:before {
-  content: "\eaf0";
-  color: #8ac1a3;
-}
-.icon-keyboard1:before {
-  content: "\eaf1";
-  color: #54c3f1;
-}
-.icon-pay_date:before {
-  content: "\eaf2";
-  color: #90bf8b;
-}
-.icon-phone1:before {
-  content: "\eaf3";
-  color: #6185a2;
-}
-.icon-printer1:before {
-  content: "\eaf4";
-  color: #9fb152;
-}
-.icon-time_shop:before {
-  content: "\eaf5";
-  color: #6d7a8c;
-}
 .icon-home:before {
   content: "\e900";
 }
